@@ -45,7 +45,7 @@ for(var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++){
     if(peopleWhoWantToSeeMadMaxFuryRoad[i].age >= 18){
         console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is old enough.")
         console.log(peopleWhoWantToSeeMadMaxFuryRoad[i] = " old enough.")
-        
+
     }else{
         console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is not old enough.")
         console.log(peopleWhoWantToSeeMadMaxFuryRoad[i] = " not old enough.")
@@ -53,14 +53,15 @@ for(var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++){
     }
 }
 
-// exercise 4: I could not figure out for the life of me. If possible may I have advise on this one?
+// exercise 4
+// var genderReview = (peopleWhoWantToSeeMadMaxFuryRoad[i].gender === "female")? "HER":"HIM";
 
 // exercise 5
 
-// for(i = 0; i < 100; i++){
-//     if(i % 2 == 1){
-//         console.log("Odd")
-//     }else{
-//         console.log("even")
-//     }
-// }
+for(i = 0; i <= 100; i++){
+    if(i % 2 == 1){
+        console.log("Odd")
+    }else{
+        console.log("even")
+    }
+}

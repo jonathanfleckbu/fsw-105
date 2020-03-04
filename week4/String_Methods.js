@@ -34,3 +34,15 @@ let crazy1 = "dren"
 halfUpperCase.concat(crazy1)
 let newCrazy = halfUpperCase.concat(crazy1)
 console.log(newCrazy)
+
+// Optional Code Challenge
+
+const capitalize = (phrase) => {
+    return phrase
+        .split(' ')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(' ');
+};
+
+let result = capitalize('hey friends! practice practice practice!');
+console.log(result);
