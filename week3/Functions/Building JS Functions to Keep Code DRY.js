@@ -28,13 +28,11 @@ checkNum(5)
 //forth exercise
 
 function lengthOfString(string){
-    var string = "Hello World";
     var n = string.length;
     if(n <= 20){
         console.log(string + " " + string)
-    }else if(n % 2 == 0) {
+    }else if(n > 20){
         console.log(string.slice(0, n / 2));
-        
     }
 }
-return lengthOfString()
+lengthOfString("Hello World")
