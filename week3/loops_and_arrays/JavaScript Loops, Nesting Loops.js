@@ -43,18 +43,43 @@ var peopleWhoWantToSeeMadMaxFuryRoad = [
 for(var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++){
     
     if(peopleWhoWantToSeeMadMaxFuryRoad[i].age >= 18){
-        console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is old enough.")
         console.log(peopleWhoWantToSeeMadMaxFuryRoad[i] = " old enough.")
-
     }else{
-        console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is not old enough.")
         console.log(peopleWhoWantToSeeMadMaxFuryRoad[i] = " not old enough.")
         
     }
 }
 
+for(var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++){
+    
+    if(peopleWhoWantToSeeMadMaxFuryRoad[i].age >= 18){
+        console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is old enough.")
+    }else{
+        console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is not old enough.")
+        
+        }
+}
+
+for(var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++){
+
+    if(peopleWhoWantToSeeMadMaxFuryRoad[i].age >= 18){
+        console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is old enough to see Mad Max.")
+    } else {
+        console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is not old enough to see Mad Max.")
+    }
+}
+
 // exercise 4
-// var genderReview = (peopleWhoWantToSeeMadMaxFuryRoad[i].gender === "female")? "HER":"HIM";
+
+for(var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++){
+    var genderReview = (peopleWhoWantToSeeMadMaxFuryRoad[i].gender === "female")?"HIM":"HER";
+
+    if(peopleWhoWantToSeeMadMaxFuryRoad[i].age >= 18){
+        console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is old enough to see Mad Max Fury Road. Let " + genderReview + "in!")
+    } else {
+        console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is not old enough to see Mad Max Fury Road. Stop " + genderReview + "!")
+    }
+}
 
 // exercise 5
 
