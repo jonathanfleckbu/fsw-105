@@ -22,10 +22,10 @@ function subtractsTwo(num1, num2){
 
 
 var num1 = readlineSync.questionInt("What is your first number? ");
-console.log('This number ' + num1 + '!');
+console.log(num1);
 
 var num2 = readlineSync.questionInt("What is your second number? ");
-console.log('This number ' + num2 + '!');
+console.log(num2);
 
 var whatDoYouWant = readlineSync.question("What would you like to do with the numbers? / add, sub, mult, or div? ")
 console.log(whatDoYouWant)
