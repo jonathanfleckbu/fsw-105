@@ -20,7 +20,6 @@ function subtractsTwo(num1, num2){
     console.log("The result: ", subtractedSum)
 }
 
-
 var num1 = readlineSync.questionInt("What is your first number? ");
 console.log(num1);
 
